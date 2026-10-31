@@ -1,0 +1,7 @@
+Node syntax and inlined original kit: PASS
+Standalone external dependency check: PASS
+93 real recorded solids; shared geometry in build and runtime.
+Kinematics, periodicity, 20:1 relation, contact point: PASS
+49 sampled poses at 0.5 s: PASS
+Browser capture and lines: NOT RUN — no Chrome binary; browser download blocked/truncated.
+Safari/iPad hardware: not available in this environment.
