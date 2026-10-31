@@ -5,3 +5,14 @@ Kinematics, periodicity, 20:1 relation, contact point: PASS
 49 sampled poses at 0.5 s: PASS
 Browser capture and lines: NOT RUN — no Chrome binary; browser download blocked/truncated.
 Safari/iPad hardware: not available in this environment.
+
+Additional published-page QA (cloud Chromium, 2026-10-31): PASS
+- Page loads; initial autoplay active.
+- Step 04 pauses and seeks to 15.5 s: 14.0 degrees, 0.98 motor turns, Opposition.
+- Restart returns to 0; Play resumes.
+- Light/dark theme toggle works.
+- Desktop viewport 1363 px; document 1348 px: no horizontal overflow.
+- 749 SVG paths present; no page-origin warnings/errors observed (extension metadata errors excluded).
+- Four light-theme SVG poses rendered independently and inspected: rest, motor motion, contact, return. This is not a browser layout test.
+- Both dark and light builds: original --audit passed.
+- Safari/iPad device, 390 px browser capture and original line-end checker remain unverified.
